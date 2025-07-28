@@ -13,6 +13,33 @@ To build an effective RAG system, we followed a two-stage approach:
 **1. Basic RAG Pipeline**  
 **2. Structured Data Integration**
 
+## Tools and Libraries Used
+**PDF Text Extraction:**
+
+PyMuPDF for extracting raw text.
+
+pdfplumber for extracting structured tables.
+
+**Text Chunking:**
+
+LangChain for splitting text into overlapping chunks.
+
+**Embeddings:**
+
+sentence-transformers (specifically the all-MiniLM-L6-v2 model) for generating vector representations of text.
+
+**Vector Storage & Retrieval:**
+
+FAISS for storing and retrieving embeddings using similarity search (Euclidean distance).
+
+**Table Extraction:**
+
+pdfplumber and pandas to parse and handle tabular data.
+
+**LLM (Answer Generation):**
+
+'Qwen/Qwen3-0.6B' for generating answers based on retrieved context.
+
 ---
 
 ### Step 1: Basic RAG (Text-based QA)
