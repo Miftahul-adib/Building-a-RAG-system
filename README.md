@@ -14,31 +14,31 @@ To build an effective RAG system, we followed a two-stage approach:
 **2. Structured Data Integration**
 
 ## Tools and Libraries Used
-**PDF Text Extraction:**
+#### **PDF Text Extraction:**
 
-PyMuPDF for extracting raw text.
+**PyMuPDF** for extracting raw text.
 
-pdfplumber for extracting structured tables.
+**pdfplumber** for extracting structured tables.
 
-**Text Chunking:**
+#### **Text Chunking:**
 
-LangChain for splitting text into overlapping chunks.
+**LangChain** for splitting text into overlapping chunks.
 
-**Embeddings:**
+#### **Embeddings:**
 
-sentence-transformers (specifically the all-MiniLM-L6-v2 model) for generating vector representations of text.
+**sentence-transformers** (specifically the all-MiniLM-L6-v2 model) for generating vector representations of text.
 
-**Vector Storage & Retrieval:**
+#### **Vector Storage & Retrieval:**
 
-FAISS for storing and retrieving embeddings using similarity search (Euclidean distance).
+**FAISS** for storing and retrieving embeddings using similarity search (Euclidean distance).
 
-**Table Extraction:**
+#### **Table Extraction:**
 
-pdfplumber and pandas to parse and handle tabular data.
+**pdfplumber** and pandas to parse and handle tabular data.
 
-**LLM (Answer Generation):**
+#### **LLM (Answer Generation):**
 
-'Qwen/Qwen3-0.6B' for generating answers based on retrieved context.
+**'Qwen/Qwen3-0.6B'** for generating answers based on retrieved context.
 
 ---
 
