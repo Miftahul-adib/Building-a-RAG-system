@@ -77,10 +77,9 @@ To build an effective RAG system, we followed a two-stage approach:
 
 ## Key Results & Observations
 
-- The overall output quality was poor across both steps.  
-- The hybrid RAG pipeline with structured data integration did not significantly improve accuracy — in many cases, the model still produced useless or generic outputs.  
-- This was expected, as it was my 
-first time working with RAG pipelines and vector databases, and the entire implementation was driven by a learning-first mindset rather than production-level results.  
-- Despite the poor performance, the project helped me understand the basic workflow of retrieval, embedding, and generation, and taught me what doesn't work — which is equally valuable at this stage.
+- The overall output quality was good across both steps.  
+- The hybrid RAG pipeline with structured data integration did slightly improve accuracy.
+- It was my first time working with RAG pipelines and vector databases, and the entire implementation was driven by a learning-first mindset rather than production-level results.  
+- The project helped me understand the basic workflow of retrieval, embedding, and generation, and taught me what doesn't work — which is equally valuable at this stage.
 
 
