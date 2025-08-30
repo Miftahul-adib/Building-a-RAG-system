@@ -49,7 +49,7 @@ To build an effective RAG system, we followed a two-stage approach:
 
 - **Retrieval**: Retrieved the top-3 most relevant text chunks using **L2 (Euclidean) distance**, which computes straight-line distances between vectors in the embedding space.
 
-- **Answer Generation**: Used a lightweight open-source LLM (**Qwen/Qwen3-0.6B**) to generate answers grounded in the retrieved text chunks.
+- **Answer Generation**: Used a lightweight open-source LLM (**"HuggingFaceTB/SmolLM2-1.7B-Instruct"**) to generate answers grounded in the retrieved text chunks.
 
 ####  Sample Queries:
 
