@@ -1,0 +1,17 @@
+🛠 Tools
+
+FAISS – vector database for similarity search
+
+HuggingFaceTB/SmolLM2-1.7B-Instruct – LLM used for answer generation
+
+📚 Libraries / Frameworks
+
+PyMuPDF – PDF text extraction
+
+pdfplumber – structured table extraction from PDFs
+
+LangChain – text chunking and pipeline support
+
+sentence-transformers (all-MiniLM-L6-v2) – embeddings generation
+
+pandas – tabular data handling
