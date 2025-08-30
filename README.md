@@ -33,7 +33,7 @@ To build an effective RAG system, we followed a two-stage approach:
 **pdfplumber** and pandas to parse and handle tabular data.
 
 ### **LLM (Answer Generation):**
-**'Qwen/Qwen3-0.6B'** for generating answers based on retrieved context.
+**"HuggingFaceTB/SmolLM2-1.7B-Instruct"** for generating answers based on retrieved context.
 
 ---
 
